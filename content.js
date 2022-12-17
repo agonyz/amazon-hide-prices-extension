@@ -1,28 +1,24 @@
 const myStyleElement = document.createElement("style");
 const cssRuleElement = `span[class*="price"]{
 color: transparent!important;
-text-shadow: rgba(0, 0, 0, 0.8) 10px 0px 10px !important;
 border-style: dotted;
 border-color: #f23838;
 }
 `;
 const cssRuleElementExtended = `span[class*="Price"]{
 color: transparent!important;
-text-shadow: rgba(0, 0, 0, 0.8) 10px 0px 10px !important;
 border-style: dotted;
 border-color: #f23838;
 }
 `;
 const cssRulePricePerPiece = `span[class*="a-size-base a-color-secondary"]{
 color: transparent!important;
-text-shadow: rgba(0, 0, 0, 0.8) 10px 0px 10px !important;
 border-style: dotted;
 border-color: #f23838;
 }
 `;
 const cssRuleSubscribeAndSaveDiscount = `div[class*="a-row a-size-base a-color-secondary"]{
 color: transparent!important;
-text-shadow: rgba(0, 0, 0, 0.8) 10px 0px 10px !important;
 border-style: dotted;
 border-color: #f23838;
 }
