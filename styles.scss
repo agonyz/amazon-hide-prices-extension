@@ -1,0 +1,17 @@
+#hide-overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(32, 32, 32);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.a-row.a-size-base.a-color-secondary > span.a-color-base {
+    color: transparent!important;
+}
