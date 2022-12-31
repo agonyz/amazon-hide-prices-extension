@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Amazon Hide Prices",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Hide prices of products on amazon. Can be used to play a guessing game.",
     "action": {
         "default_icon": "on.png"

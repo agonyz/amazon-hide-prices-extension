@@ -31,6 +31,13 @@ border-color: #f23838;
 }
 `;
 
+const cssRuleInstallmentOptionsNonPrime = `*[class*="maple-banner"]{
+color: transparent!important;
+border-style: dotted;
+border-color: #f23838;
+}
+`;
+
 let extensionEnabled = true;
 
 const setEnabled = (boolean) => {
