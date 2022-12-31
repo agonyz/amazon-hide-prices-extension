@@ -24,6 +24,13 @@ border-color: #f23838;
 }
 `;
 
+const cssRulePaymentOptions = `*[class*="payment-options-subtitle"]{
+color: transparent!important;
+border-style: dotted;
+border-color: #f23838;
+}
+`;
+
 let extensionEnabled = true;
 
 const setEnabled = (boolean) => {
@@ -51,6 +58,7 @@ const hidePrice = () => {
     myStyleElement.sheet.insertRule(cssRuleElementExtended, 1);
     myStyleElement.sheet.insertRule(cssRulePricePerPiece, 2);
     myStyleElement.sheet.insertRule(cssRuleSubscribeAndSaveDiscount, 3);
+    myStyleElement.sheet.insertRule(cssRulePaymentOptions, 4);
 }
 
 const showPrice = () => {
@@ -59,6 +67,7 @@ const showPrice = () => {
     myStyleElement.sheet.deleteRule(1)
     myStyleElement.sheet.deleteRule(2)
     myStyleElement.sheet.deleteRule(3)
+    myStyleElement.sheet.deleteRule(4)
 }
 
 const createOverlay = () => {
