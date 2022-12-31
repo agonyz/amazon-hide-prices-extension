@@ -66,6 +66,7 @@ const hidePrice = () => {
     myStyleElement.sheet.insertRule(cssRulePricePerPiece, 2);
     myStyleElement.sheet.insertRule(cssRuleSubscribeAndSaveDiscount, 3);
     myStyleElement.sheet.insertRule(cssRulePaymentOptions, 4);
+    myStyleElement.sheet.insertRule(cssRuleInstallmentOptionsNonPrime, 5);
 }
 
 const showPrice = () => {
@@ -75,6 +76,7 @@ const showPrice = () => {
     myStyleElement.sheet.deleteRule(2)
     myStyleElement.sheet.deleteRule(3)
     myStyleElement.sheet.deleteRule(4)
+    myStyleElement.sheet.deleteRule(5)
 }
 
 const createOverlay = () => {
