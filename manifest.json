@@ -3,14 +3,14 @@
     "name": "Amazon Hide Prices",
     "version": "0.1.3",
     "description": "Hide prices of products on amazon. Can be used to play a guessing game.",
-    "browser_action": {
+    "action": {
         "default_icon": "on.png"
     },
     "permissions": [
         "tabs"
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background_worker.js"
     },
     "content_scripts": [
         {
